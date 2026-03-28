@@ -1,4 +1,3 @@
-import React from 'react';
 import LandingPage from './LandingPage';
 import Skills from './Skills';
 import Work from './Work';

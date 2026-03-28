@@ -1,4 +1,3 @@
-import React from 'react';
 import heroImg from '../assets/hero_background.png';
 
 export default function LandingPage() {
@@ -23,7 +22,7 @@ export default function LandingPage() {
           <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 max-w-lg mx-auto md:mx-0 leading-relaxed">
             I'm a Developer specializing in creating interactive, visually stunning, and highly performant web applications.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-stretch justify-center md:justify-start gap-4 pt-4 w-full">
             <button className="w-full sm:w-auto px-8 py-3.5 bg-[var(--color-brand)] hover:brightness-110 text-white rounded-xl font-semibold transition-all duration-300 transform hover:-translate-y-1 shadow-[0_0_20px_rgba(139,92,246,0.3)]">
               View Work
@@ -33,16 +32,16 @@ export default function LandingPage() {
             </button>
           </div>
         </div>
-        
+
         <div className="flex-1 w-full mt-16 md:mt-0 flex justify-center items-center relative perspective-[1000px] mb-12 md:mb-0">
           {/* Abstract Hero Image Container */}
           <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96 animate-float z-10">
-             <div className="absolute inset-0 bg-gradient-to-tr from-[var(--color-brand)] to-fuchsia-500 rounded-3xl blur-2xl opacity-40"></div>
-             <img 
-               src={heroImg} 
-               alt="Abstract 3D Background" 
-               className="relative w-full h-full object-cover rounded-3xl glass shadow-2xl"
-             />
+            <div className="absolute inset-0 bg-gradient-to-tr from-[var(--color-brand)] to-fuchsia-500 rounded-3xl blur-2xl opacity-40"></div>
+            <img
+              src={heroImg}
+              alt="Abstract 3D Background"
+              className="relative w-full h-full object-cover rounded-3xl glass shadow-2xl"
+            />
           </div>
           {/* Floating UI Elements */}
           <div className="absolute top-[15%] right-[10%] md:right-10 glass px-5 py-3 rounded-2xl animate-float-delayed z-20 flex items-center gap-3 shadow-xl">

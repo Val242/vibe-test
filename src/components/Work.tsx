@@ -1,4 +1,3 @@
-import React from 'react';
 import heroImg from '../assets/hero_background.png';
 
 export default function Work() {
@@ -22,9 +21,9 @@ export default function Work() {
           <div key={project} className="glass rounded-[2rem] overflow-hidden group">
             <div className="h-64 bg-zinc-200 dark:bg-zinc-800/80 relative overflow-hidden">
               <div className="absolute inset-0 bg-[var(--color-brand)]/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-              <img 
-                src={heroImg} 
-                alt="Project Thumbnail" 
+              <img
+                src={heroImg}
+                alt="Project Thumbnail"
                 className="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 blur-[2px] group-hover:blur-0 grayscale group-hover:grayscale-0"
               />
             </div>

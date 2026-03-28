@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function Skills() {
   return (
@@ -7,7 +7,7 @@ export default function Skills() {
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-zinc-900 dark:text-white">Tech Arsenal</h2>
         <p className="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto text-lg">The tools and technologies I use to bring ideas to life.</p>
       </div>
-      
+
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
           { name: 'React', icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4' },
